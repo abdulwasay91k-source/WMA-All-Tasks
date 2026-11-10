@@ -1,0 +1,36 @@
+.Model1 {
+    height: 500px;
+    width: 1000px;
+    border: 50px solid red;
+    margin: 100px;
+    padding: 100px;
+    
+}
+.Model2 {
+    height: 400px;
+    width: 800px;
+    border: 50px solid red;
+    margin: 50px 20px 30px 10px;
+    padding: 50px;
+}
+.Model3 {
+    height: 400px;
+    width: 800px;
+    border: 50px solid red;
+    margin: 50px;
+    padding: 50px 20px 30px 10px;
+}
+.content {
+    height: 900px;
+    width: 900px;
+    border: 10px solid rgb(43, 42, 37);
+    background-color: rgb(244, 244, 35);
+    font-size: 20px;
+    padding: 20px;
+    word-spacing: 15px;
+
+}
+
+
+
+

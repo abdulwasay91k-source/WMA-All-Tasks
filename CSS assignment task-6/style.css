@@ -1,0 +1,39 @@
+
+body {
+    font-family: Arial;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+h2 {
+    color: darkred;
+}
+
+/* 1. Descendant Combinator */
+.box1 p {
+    background-color: yellow;
+    padding: 10px;
+}
+
+/* 2. Child Combinator */
+.box2 > p {
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+/* 3. Adjacent Sibling Combinator */
+.box3 h3 + p {
+    background-color: skyblue;
+    padding: 10px;
+}
+
+/* 4. General Sibling Combinator */
+.box4 h3 ~ p {
+    background-color: orange;
+    padding: 10px;
+}

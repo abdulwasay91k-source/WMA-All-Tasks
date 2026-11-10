@@ -1,0 +1,46 @@
+body{
+    background-color: #F8F9FD;
+}
+.main{
+    display: flex;
+
+}
+.ocean, .air, .street{
+    border-right: px solid black;
+    height: 300px;
+    width: 300px;
+    background-repeat:no-repeat  ;
+    background-position: top;
+    gap: 40px;
+    margin: 80px;
+    text-align: center;
+    color: #5C6B82;
+}
+button{
+    color: white;
+    background-color: #5C6B82;
+border-radius: 1px solid #5C6B82;
+font-size: 15px;
+font-width: 20px;
+padding: 5px;
+width: 100px;
+}
+h1{
+      font-size: 25px;
+      color: black;
+}
+p{
+    font-size: 15px;
+    color: black;
+}
+.oc, .ai, .str{
+border: 1px solid white;
+    background-color:  white;
+    border-radius: 10px;
+    width: 380px;
+    height: 450px;
+}
+img{
+    border-radius: 10px;
+}
+
