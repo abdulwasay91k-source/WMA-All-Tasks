@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    #bg-video {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    body {
+        color: black;
+        text-align: center;
+    }
+main {
+    border: 10px solid black;
+    width: 350px;
+    margin: 100px auto;
+    height: 400px;
+}
+</style> 
+</head>
+<body>
+    <main>
+    <video id="bg-video" loop autoplay muted>
+            <source src="./assets/246151_tiny.mp4">
+        </video>
+        <b><H1>Sign Up Form</H1></b>
+        <b><p>Step 4: Preferences</p></b>
+        <br>
+        <form action="index.html">
+            <label for="notifications">Receive Notifcations</label>
+            <input type="checkbox" name="notifications">
+            <br>
+            <br><br>
+            <label>Preferred Job Location:</label>
+            <select  required>
+                <option value="">choose your preference</option>
+                <option value="">Karachi</option>
+                <option value="">Lahore</option>
+                <option value="">Islamabad</option>
+                <option value="">Remote</option>
+                <option value="">Other Cities</option>
+            </select>
+            <br>
+            <br><br>
+            <button type="submit">Next</button>
+
+
+
+
+
+        </form>
+    </main>
+</body>
+</html>

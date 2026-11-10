@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    #bg-video {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    body {
+        color: BLACK;
+        text-align: center;
+    }
+main {
+    border: 10px solid black;
+    width: 400px;
+    margin: 100px auto;
+    height: 450px;
+}
+</style> 
+</head>
+<body>
+  <main>
+    <video id="bg-video" loop autoplay muted>
+        <source src="./assets/246151_tiny.mp4">
+    </video>
+<b><h1>Sign Up</h1></b>
+<b><P>Step 3: Work Experience</P></b>
+<br>
+<form action="signup4.html">
+    <label for="job">Current Job Title</label>
+<input type="text" placeholder="e.g. Web Developer" name="job">
+<br><br><br>
+ <label for="year">Years of Experience</label>
+<input type="number" placehder="Enter year" name="year">
+<br><br><br>
+ <label for="start date">Employment Start Date</label>
+<input type="month">
+<br><br><br>
+<pre>         <b><label for="file">Upload Resume</label> <input type="file" name="file"></b></pre>
+<br>
+ <label for="Skills">Skills:</label>
+<select>
+    <option value="">select</option>
+    <option value="">Html</option>
+                <option value="">CSS</option>
+                <option value="">JavaScript</option>
+                <option value="">Python</option>
+                <option value="">React</option>
+                <option value="">Web Development</option>
+</select>
+<br><br>
+<button type="submit">Next</button>
+</form>
+  </main>    
+</body>
+</html>
